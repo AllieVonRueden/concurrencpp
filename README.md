@@ -1,14 +1,14 @@
-# concurrencpp, the C++ concurrency library
+  concurrencpp, the C++ concurrency library
 
-![Latest Release](https://img.shields.io/github/v/release/David-Haim/concurrencpp.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [Latest Release](https://img.shields.io/github/v/release/David-Haim/concurrencpp.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 concurrencpp brings the power of concurrent tasks to the C++ world, allowing developers to write highly concurrent applications easily and safely by using tasks, executors and coroutines.
 By using concurrencpp applications can break down big procedures that need to be processed asynchronously into smaller tasks that run concurrently and work in a co-operative manner to achieve the wanted result.
 concurrencpp also allows applications to write parallel algorithms easily by using parallel coroutines.
 
 concurrencpp main advantages are:
-* Writing modern concurrency code using higher level tasks instead of low level primitives like `std::thread` and `std::mutex`.
-* Writing highly concurrent and parallel applications that scale automatically to use all hardware resources, as needed.
+# Writing modern concurrency code using higher level tasks instead of low level primitives like `std::thread` and `std::mutex`.
+! Writing highly concurrent and parallel applications that scale automatically to use all hardware resources, as needed.
 * Achieving non-blocking, synchronous-like code easily by using C++20 coroutines and the `co_await` keyword.
 * Reducing the possibility of race conditions, data races and deadlocks by using high-level objects with built-in synchronization.
 * concurrencpp provides various types of commonly used executors with a complete coroutine integration.
@@ -2476,4 +2476,4 @@ $ cmake -S sandbox -B build/sandbox
   #for release mode: cmake -DCMAKE_BUILD_TYPE=Release -S sandbox -B build/sandbox
 $ cmake --build build/sandbox  
 $ ./build/sandbox #runs the sandbox
-```
+``` 
